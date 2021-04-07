@@ -4,7 +4,9 @@
 }
 
 body {
-font-family: 'Titillium Web', sans-serif;
+/* font-family: 'Titillium Web', sans-serif; */
+/* font-family: 'Handlee', cursive; */
+font-family: 'Dosis', sans-serif;
 }
 
 header {
@@ -13,15 +15,24 @@ header {
   font-size: 70%;
   justify-content: center;
   align-items: center;
-  background: #214151;
+  background: #dfe8ce;
   background-size: cover;
-  color: #f5f1da;
+  color: #214151;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 85%;
+  background-color:#F8DC81;
+  height: 5px;
 }
 
 /* Navbar */
 .topnav {
   overflow: hidden;
-  background-color: #214151;
+  background-color: #dfe8ce;
 }
 
 .topnav a {
@@ -34,13 +45,13 @@ header {
 }
 
 .topnav a:hover {
-  background-color: #214151;
+  background-color: #dfe8ce;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #214151;
-  color: #f5f1da;
+  background-color: ##dfe8ce;
+  color: #214151;
 }
 
 .topnav-right {
@@ -56,8 +67,8 @@ header {
   font-size: 16px;
   border: none;
   outline: none;
-  color: #f5f1da;
-  padding: 14px 40px;
+  color: #214151;
+  padding: 20px 50px;
   background-color: inherit;
 }
 
@@ -147,7 +158,8 @@ header {
 /* Paper-plane animation */
 .animation {
   height:100vh;
-  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+  /* background-color: #EFF7E1; */
   position: relative;
   overflow:hidden;
 }
@@ -195,18 +207,18 @@ header {
 
 .about-pages div> p {
   width: 80%;
-  font-size: 150%;
+  font-size: 120%;
   line-height: 30px;
 }
 
 .about-pages div:nth-child(1) {
-  background-color: #f5f1da;
+  background-color: #fdfaf2;
 }
 .about-pages div:nth-child(2) {
-  background-color: #f5f1da;
+  background-color: #fdfaf2;
 }
 .about-pages div:nth-child(3) {
-  background-color: #f5f1da;
+  background-color: #fdfaf2;
 }
 
 /* Resume pages */
@@ -225,7 +237,7 @@ header {
   align-items: center;
   font-size: 150%;
   margin: 0!important;
-  background-color: #F8DC81;
+  background-color: #dfe8ce;
   color: #214151;
 }
 
@@ -244,18 +256,18 @@ header {
 
 .resume-pages div> p {
   width: 80%;
-  font-size: 150%;
+  font-size: 120%;
   line-height: 30px;
 }
 
 .resume-pages div:nth-child(1) {
-  background-color: #f5f1da;
+  background-color: #fdfaf2;
 }
 .resume-pages div:nth-child(2) {
-  background-color: #f5f1da;
+  background-color: #fdfaf2;
 }
 .resume-pages div:nth-child(3) {
-  background-color: #f5f1da;
+  background-color: #fdfaf2;
 }
 
 /* Story pages */
@@ -293,18 +305,18 @@ header {
 
 .story-pages div> p {
   width: 80%;
-  font-size: 150%;
+  font-size: 120%;
   line-height: 30px;
 }
 
 .story-pages div:nth-child(1) {
-  background-color: #f5f1da;
+  background-color: #fdfaf2;
 }
 .story-pages div:nth-child(2) {
-  background-color: #f5f1da;
+  background-color: #fdfaf2;
 }
 .story-pages div:nth-child(3) {
-  background-color: #f5f1da;
+  background-color: #fdfaf2;
 }
 
 
@@ -316,8 +328,18 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  /* background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); */
+  background-color: #c1dfc4;
   color: #214151;
+}
+
+#lpro li {
+    display:inline-block;
+}
+
+#github, #linkedin, #mail, #googlescholar {
+  height:50px;
+  height:50px;
 }
 
 #scrollToTopBtn {
@@ -1040,7 +1062,7 @@ footer {
 /* ----------- Non-Retina Screens ----------- */
 @media screen
   and (min-device-width: 1200px)
-  and (max-device-width: 1600px) 
+  and (max-device-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 1) {
 }
 
